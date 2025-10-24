@@ -14,6 +14,9 @@ import {
   thousands_separators,
 } from "../Query";
 import { ArcgisScene } from "@arcgis/map-components/dist/components/arcgis-scene";
+import { CalciteLabel, CalcitePanel } from "@esri/calcite-components-react";
+import "@esri/calcite-components/dist/components/calcite-label";
+import "@esri/calcite-components/dist/components/calcite-panel";
 
 // Dispose function
 function maybeDisposeRoot(divId: any) {
@@ -348,42 +351,59 @@ const Chart = () => {
   });
 
   return (
-    <div>
-      <div className="totalProgressDiv">
-        <div>
-          <div className="totalExceedLabel">TOTAL EXCEEDED</div>
-          <br />
-          <br />
-          <b className="totalExceedNumber">
-            {thousands_separators(totalNumber[1])}{" "}
+    <>
+      <CalcitePanel
+        slot="panel-end"
+        scale="s"
+        style={{
+          width: "35vw",
+          padding: "0 1rem",
+          borderStyle: "solid",
+          borderRightWidth: 3.5,
+          borderLeftWidth: 3.5,
+          borderBottomWidth: 4.5,
+          borderColor: "#555555",
+        }}
+      >
+        <CalciteLabel>TOTAL EXCEEDED</CalciteLabel>
+
+        <div style={{ display: "flex" }}>
+          <div className="totalExceedNumber">
+            {thousands_separators(totalNumber[1])}
             <div className="totalNumber">
               ({thousands_separators(totalNumber[0])})
             </div>
-          </b>
+          </div>
+          <img
+            src={
+              totalNumber[1] > 0
+                ? "https://EijiGorilla.github.io/Symbols/3D_Web_Style/Warning_Symbol.svg"
+                : "https://EijiGorilla.github.io/Symbols/DemolishComplete_v2.png"
+            }
+            alt="Warning Logo"
+            height={"45%"}
+            width={"20%"}
+            style={{
+              marginTop: "14px",
+              marginLeft: "auto",
+              marginRight: "30px",
+            }}
+          />
         </div>
-        <img
-          src={
-            totalNumber[1] > 0
-              ? "https://EijiGorilla.github.io/Symbols/3D_Web_Style/Warning_Symbol.svg"
-              : "https://EijiGorilla.github.io/Symbols/DemolishComplete_v2.png"
-          }
-          alt="Warning Logo"
-          height={"17%"}
-          width={"17%"}
-          style={{ padding: "10px", margin: "auto" }}
-        />
-      </div>
-      <div
-        id={chartID}
-        style={{
-          width: "22vw",
-          height: "55vh",
-          backgroundColor: "rgb(0,0,0,0)",
-          color: "white",
-          marginRight: "10px",
-        }}
-      ></div>
-    </div>
+
+        <div
+          id={chartID}
+          style={{
+            width: "22vw",
+            height: "65vh",
+            backgroundColor: "rgb(0,0,0,0)",
+            color: "white",
+            marginRight: "10px",
+            marginTop: "15px",
+          }}
+        ></div>
+      </CalcitePanel>
+    </>
   );
 };
 

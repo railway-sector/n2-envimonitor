@@ -9,6 +9,13 @@ b {
   color: orange;
 }
 
+.esri-attribution {
+  display: none;
+  /* or */
+  /* position: absolute;
+  left: -9999px; */
+}
+
 .calcitePanelBasemaps {
   display: grid;
   width: 100%;
@@ -70,25 +77,34 @@ calcite-avatar {
   margin-top: 0.15rem;
 }
 
-/* Lot Tab */
-.treesNumberImage {
+.totalProgressDiv {
   display: flex;
   padding-left: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
-.totalTreesLabel {
+.totalExceedLabel {
   color: white;
-  font-size: 1vw;
-  padding-bottom: 0.5vh;
+  font-size: 1.5vw;
+  padding-bottom: 0.3vh;
   padding-top: 0.6vh;
 }
 
-.totalTreesNumber {
-  color: #6ede00;
-  font-size: 2.5vw;
+.totalExceedNumber {
+  color: red;
+  font-size: 3.3vw;
   font-weight: bold;
   font-family: "calibri";
+  margin-left: 20px;
+}
+
+.totalNumber {
+  color: white;
+  font-size: 1vw;
+  font-weight: normal;
+  padding-top: 0.5vh;
+  margin-left: 20px;
 }
 
 /* Clustering */

@@ -99,7 +99,7 @@ function ActionPanel() {
           hidden
         >
           <arcgis-layer-list
-            referenceElement="arcgis-map"
+            referenceElement="arcgis-scene"
             selectionMode="multiple"
             visibilityAppearance="checkbox"
             // show-collapse-button
@@ -116,7 +116,7 @@ function ActionPanel() {
           style={{ width: "18vw" }}
           hidden
         >
-          <arcgis-basemap-gallery referenceElement="arcgis-map"></arcgis-basemap-gallery>
+          <arcgis-basemap-gallery referenceElement="arcgis-scene"></arcgis-basemap-gallery>
         </CalcitePanel>
 
         <CalcitePanel heading="Description" data-panel-id="information" hidden>

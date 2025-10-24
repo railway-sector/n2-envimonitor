@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkn2_envimonitor=self.webpackChunkn2_envimonitor||[]).push([[72713],{72713:(n,e,i)=>{i.r(e),i.d(e,{build:()=>r.b});i(73398),i(86955),i(70367),i(2687);var r=i(21199)}}]);

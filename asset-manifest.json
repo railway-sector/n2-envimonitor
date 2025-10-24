@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/n2-envimonitor/static/css/main.c83d9a86.css",
-    "main.js": "/n2-envimonitor/static/js/main.d4a6de66.js",
+    "main.css": "/n2-envimonitor/static/css/main.254d0fe3.css",
+    "main.js": "/n2-envimonitor/static/js/main.2fda6068.js",
     "static/js/20623.3c2936eb.chunk.js": "/n2-envimonitor/static/js/20623.3c2936eb.chunk.js",
     "static/js/34429.594ef33b.chunk.js": "/n2-envimonitor/static/js/34429.594ef33b.chunk.js",
     "static/js/24300.41f0bb37.chunk.js": "/n2-envimonitor/static/js/24300.41f0bb37.chunk.js",
     "static/js/1298.69d50319.chunk.js": "/n2-envimonitor/static/js/1298.69d50319.chunk.js",
-    "static/js/11839.7d199ff9.chunk.js": "/n2-envimonitor/static/js/11839.7d199ff9.chunk.js",
     "static/js/71475.fe522d01.chunk.js": "/n2-envimonitor/static/js/71475.fe522d01.chunk.js",
     "static/js/23875.b99b74f7.chunk.js": "/n2-envimonitor/static/js/23875.b99b74f7.chunk.js",
     "static/js/65665.54fed2c7.chunk.js": "/n2-envimonitor/static/js/65665.54fed2c7.chunk.js",
@@ -537,13 +536,12 @@
     "static/js/59031.73d49966.chunk.js": "/n2-envimonitor/static/js/59031.73d49966.chunk.js",
     "static/js/37356.8ec8f55a.chunk.js": "/n2-envimonitor/static/js/37356.8ec8f55a.chunk.js",
     "index.html": "/n2-envimonitor/index.html",
-    "main.c83d9a86.css.map": "/n2-envimonitor/static/css/main.c83d9a86.css.map",
-    "main.d4a6de66.js.map": "/n2-envimonitor/static/js/main.d4a6de66.js.map",
+    "main.254d0fe3.css.map": "/n2-envimonitor/static/css/main.254d0fe3.css.map",
+    "main.2fda6068.js.map": "/n2-envimonitor/static/js/main.2fda6068.js.map",
     "20623.3c2936eb.chunk.js.map": "/n2-envimonitor/static/js/20623.3c2936eb.chunk.js.map",
     "34429.594ef33b.chunk.js.map": "/n2-envimonitor/static/js/34429.594ef33b.chunk.js.map",
     "24300.41f0bb37.chunk.js.map": "/n2-envimonitor/static/js/24300.41f0bb37.chunk.js.map",
     "1298.69d50319.chunk.js.map": "/n2-envimonitor/static/js/1298.69d50319.chunk.js.map",
-    "11839.7d199ff9.chunk.js.map": "/n2-envimonitor/static/js/11839.7d199ff9.chunk.js.map",
     "71475.fe522d01.chunk.js.map": "/n2-envimonitor/static/js/71475.fe522d01.chunk.js.map",
     "23875.b99b74f7.chunk.js.map": "/n2-envimonitor/static/js/23875.b99b74f7.chunk.js.map",
     "65665.54fed2c7.chunk.js.map": "/n2-envimonitor/static/js/65665.54fed2c7.chunk.js.map",
@@ -1012,7 +1010,7 @@
     "37356.8ec8f55a.chunk.js.map": "/n2-envimonitor/static/js/37356.8ec8f55a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c83d9a86.css",
-    "static/js/main.d4a6de66.js"
+    "static/css/main.254d0fe3.css",
+    "static/js/main.2fda6068.js"
   ]
 }
